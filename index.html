@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div style="margin:10%;border:solid; background-color:tomato;width:max-content;font-size:x-large">
+        
+    <div class="row" style="text-align: center;">
+        <input style="font-size:large;height:40px;border:solid tomato;background-color:slategrey;color:white" id="result" style="height: 70px;width:250px"   type="text"  name="" id="">
+    </div>
+    <div class="row">
+        <button style="width:55%;" onclick="Clear()">C</button>
+        <button style="width:35%;" onclick="backSpace()">←</button>
+    </div>
+    <div class="row">
+        <button style="width:max-content;" onclick="getNumber('7')" >7</button>
+        <button style="width: max-content;" onclick="getNumber('8')" >8</button>
+        <button style="width: max-content;" onclick="getNumber('9')">9</button>
+        <button style="width: max-content;" onclick="getNumber('+')">+</button>
+    </div>
+    <div class="row">
+        <button style="width: max-content;" onclick="getNumber('6')">6</button>
+        <button style="width: max-content;" onclick="getNumber('5')">5</button>
+        <button style="width: max-content;" onclick="getNumber('4')">4</button>
+        <button style="width: max-content;" onclick="getNumber('-')"> - </button>
+    </div>
+    <div class="row">
+        <button style="width: max-content;" onclick="getNumber('3')">3</button>
+        <button style="width: max-content;" onclick="getNumber('2')">2</button>
+        <button style="width: max-content;" onclick="getNumber('1')">1</button>
+        <button style="width: max-content;" onclick="getNumber('*')">*</button>
+    </div>
+    <div class="row">
+        <button style="width: max-content;" onclick="getNumber('0')">0</button>
+        <button style="width: max-content;" onclick="getNumber('.')"> . </button>
+        <button style="width: max-content;" onclick="showResult()">=</button>
+        <button style="width: max-content;" onclick="getNumber('/')">/</button>
+    </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

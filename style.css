@@ -1,0 +1,16 @@
+
+button{
+    margin: 1%;
+    font-size:x-large;
+    padding:2%;
+    padding-right:6% ;
+    padding-left: 6%;
+    color:white;
+    background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));
+}
+
+.row{
+    text-align:center;
+    
+    
+}
